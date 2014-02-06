@@ -3,7 +3,7 @@ Hello-Node
 
 This is a simple app written in nodejs that does a simple hello world. It also demonstrates a few things more complex than a Hello World, like consuming an external rest api.
 
-In order to run this example you need to download nodejs from http://nodejs.org/.
+In order to run this example you need to have nodejs installed in your machine.
 
 #### NVM
 
@@ -16,6 +16,7 @@ On MAC:
     brew install nvm
     
 On Linux, follow the instructions at https://github.com/creationix/nvn.
+
 After you installed *nvm* run the following:
 
     nvm install v0.11.10
