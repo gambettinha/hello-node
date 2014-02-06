@@ -7,7 +7,9 @@ In order to run this example you need to download nodejs from http://nodejs.org/
 
 Or if you are smarter and uses Mac :), just
 
+
     brew install node
+
 
 *I strongly recommend that you use NVM to manage node environments, it is similar to rbenv or virtualenv for python.*
 
@@ -24,3 +26,11 @@ Run the app.
     node app.js
     
 Access it at http://localhost:3000/hello.txt
+
+### Used Libraries
+
+All application dependencies can be found in [package.json](package.json), but basically there are 3:
+- **expressjs**, a sinatra like web framework - http://expressjs.com/
+- **lodash**, an utility library, kind of a swiss army knife - http://lodash.com/
+- **node-rest-client**, simple library to ease the use of node http module - https://github.com/aacerox/node-rest-client
+
