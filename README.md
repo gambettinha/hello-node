@@ -5,19 +5,35 @@ This is a simple app written in nodejs that does a simple hello world. It also d
 
 In order to run this example you need to download nodejs from http://nodejs.org/.
 
-Or if you are smarter and have a Mac :), just
+#### NVM
 
+**If you run Linux of Mac read this first!**
 
-    brew install node
+I strongly recommend that you use NVM (for linux or mac) to manage node environments, it is similar to rbenv or virtualenv for python.
 
-
-*I strongly recommend that you use NVM (for linux or mac) to manage node environments, it is similar to rbenv or virtualenv for python.*
+On MAC:
 
     brew install nvm
+    
+On Linux, follow the instructions at https://github.com/creationix/nvn.
+After you installed *nvm* run the following:
+
     nvm install v0.11.10
     nvm use v0.11.10
 
-*Out of luck if you run Windows, try using wnvm or nodist, they seem to do the job.*
+*You are out of luck if you run Windows, try using wnvm or nodist, they seem to do the job.*
+
+#### Manual installation
+
+Using homebrew on mac just:
+
+    brew install node
+
+Or on debian linuxes:
+
+    apt-get install node
+
+#### Running the application
 
 After downloading this repo, navigate to the repo root directory and run the command below, it will install all needed dependencies.
 
@@ -29,7 +45,7 @@ Run the app.
     
 Access it at http://localhost:3000/hello.txt
 
-### Used Libraries
+#### Used Libraries
 
 All application dependencies can be found in [package.json](package.json), but basically there are 3:
 - **expressjs**, a sinatra like web framework - http://expressjs.com/
