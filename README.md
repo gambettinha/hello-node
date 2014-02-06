@@ -7,9 +7,9 @@ In order to run this example you need to download nodejs from http://nodejs.org/
 
 #### NVM
 
-**If you run Linux of Mac read this first!**
+**If you run Linux or Mac read this first!**
 
-I strongly recommend that you use NVM (for linux or mac) to manage node environments, it is similar to rbenv or virtualenv for python.
+I strongly recommend that you use NVM (for linux or mac) to manage node environments, it is similar to rbenv for ruby or virtualenv for python.
 
 On MAC:
 
@@ -32,6 +32,8 @@ Using homebrew on mac just:
 Or on debian linuxes:
 
     apt-get install node
+
+Or on Windows just download the installer from http://nodejs.org
 
 #### Running the application
 
