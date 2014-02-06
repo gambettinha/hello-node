@@ -5,7 +5,7 @@ This is a simple app written in nodejs that does a simple hello world. It also d
 
 In order to run this example you need to download nodejs from http://nodejs.org/.
 
-Or if you are smarter and uses Mac :), just
+Or if you are smarter and have a Mac :), just
 
 
     brew install node
