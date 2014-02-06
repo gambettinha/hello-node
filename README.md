@@ -11,11 +11,13 @@ Or if you are smarter and have a Mac :), just
     brew install node
 
 
-*I strongly recommend that you use NVM to manage node environments, it is similar to rbenv or virtualenv for python.*
+*I strongly recommend that you use NVM (for linux or mac) to manage node environments, it is similar to rbenv or virtualenv for python.*
 
     brew install nvm
     nvm install v0.11.10
     nvm use v0.11.10
+
+*Out of luck if you run Windows, try using wnvm or nodist, they seem to do the job.*
 
 After downloading this repo, navigate to the repo root directory and run the command below, it will install all needed dependencies.
 
