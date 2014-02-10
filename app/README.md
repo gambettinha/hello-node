@@ -40,7 +40,7 @@ Or on Windows just download the installer from http://nodejs.org
 
 After downloading this repo, navigate to the repo root directory and run the command below, it will install all needed dependencies.
 
-    npm install
+    npm install --no-bin-links
 
 Run the app.    
 
