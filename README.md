@@ -20,27 +20,27 @@ It will download the virtual machine.
 
 ###Configure Vagrant box
 
-    $ git clone https://github.com/gambettinha/Metrics-Rails-Viiews.git
-    $ cd Metrics-Rails-Viiews
+    $ git clone https://github.com/gambettinha/hello-node.git
+    $ cd hello-node 
     $ vagrant up
     
 It will set up your environment. Let's connect into it
 
     $ vagrant ssh
-    $ cd /vagrant/rails-app
-   
+    $ cd /vagrant/hello-node/app
     
 ###Running the application
     
 Let's install the application dependencies
 
-    $ bundle update
+    $ nvm use v0.11.10
+    $ npm install --no-bin-links
 
 and now start the application
 
-    $ rails server
+    $ node app.js
     
-Go in your browser to http://localhost:9000/example_controller/main
+Go in your browser to http://127.0.0.1:9000/hello.txt
 
 Once you are done coding and playing. You can exit from the server with
 
