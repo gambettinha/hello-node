@@ -5,26 +5,22 @@ Hello world with Node using Vagrant
 
 ###Setting up Vagrant
 
-If you yet have never run this command downloading precise32 box, run this
+If you yet have downloaded vagrant and downloaded the precise32 box, you can skip this part.
+
+Make sure you have virtual box instaleed and then install vagrant 1.4.3 from here http://www.vagrantup.com/downloads.html
+
+Then run
 
     $ vagrant init precise32 http://files.vagrantup.com/precise32.box
-
-otherwise run 
-
-    $ vagrant init
+    $ vagrant up
+    $ vagrant destory
+    
+It will download the virtual machine. 
     
 
 ###Configure Vagrant box
 
     $ git clone https://github.com/gambettinha/hello-node.git
-    
-Override the Vagrantfile with the one coming from the repository
-
-    $ cp hello-node/Vagrantfile .
-    $ cp hello-node/bootstrap.sh .
-    
-Then let's start and provision the environment
-
     $ vagrant up
     
 It will set up your environment. Let's connect into it
