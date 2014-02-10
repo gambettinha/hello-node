@@ -41,3 +41,8 @@ and now start the application
     $ node app.js
     
 Go in your browser to http://127.0.0.1:9000/hello.txt
+
+
+Once you are done coding and playing. You can exit from the server with
+    $ exit
+    $ vagrant suspend
