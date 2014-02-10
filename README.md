@@ -1,9 +1,21 @@
 Hello world with Node using Vagrant
 ===================================
 
-First run 
+
+
+###Setting up Vagrant
+
+If you yet have never run this command downloading precise32 box, run this
+
+    $ vagrant init precise32 http://files.vagrantup.com/precise32.box
+
+otherwise run 
 
     $ vagrant init
+    
+
+###Configure Vagrant box
+
     $ git clone https://github.com/gambettinha/hello-node.git
     
 Override the Vagrantfile with the one coming from the repository
@@ -19,6 +31,8 @@ It will set up your environment. Let's connect into it
 
     $ vagrant ssh
     $ cd /vagrant/hello-node/app
+    
+###Running the application
     
 Let's install the application dependencies
 
