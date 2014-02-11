@@ -13,7 +13,7 @@ Then run
 
     $ vagrant init precise32 http://files.vagrantup.com/precise32.box
     $ vagrant up
-    $ vagrant destory
+    $ vagrant destroy
     
 It will download the virtual machine. 
     
@@ -27,7 +27,7 @@ It will download the virtual machine.
 It will set up your environment. Let's connect into it
 
     $ vagrant ssh
-    $ cd /vagrant/hello-node/app
+    $ cd /vagrant/app
     
 ###Running the application
     
